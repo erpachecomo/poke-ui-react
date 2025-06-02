@@ -1,2 +1,2 @@
-export { default } from "./Stat";
+export { default as Stat} from "./Stat";
 export * from "./types";

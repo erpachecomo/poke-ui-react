@@ -1,6 +1,6 @@
 {
   "name": "poke-ui-react",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "main": "lib/poke-ui.umd.js",
   "module": "lib/poke-ui.es.js",
   "types": "lib/index.d.ts",
