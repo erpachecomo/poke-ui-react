@@ -1,6 +1,9 @@
 {
   "name": "poke-ui-react",
   "version": "1.0.1",
+  "main": "lib/poke-ui.umd.js",
+  "module": "lib/poke-ui.es.js",
+  "types": "lib/index.d.ts",
   "type": "module",
   "license": "MIT",
   "repository": {
@@ -9,9 +12,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "ci": "tsc -b --noEmit && vite build",
+    "ci": "vite build && tsc -b --noEmit",
     "test": "echo \"No tests specified\" && exit 0",
-    "build": "tsc -b && vite build",
+    "build": "vite build && tsc -b ",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -34,5 +37,11 @@
     "typescript-eslint": "^8.30.1",
     "vite": "^6.3.5"
   },
+  "files": [
+    "lib",
+    "src/index.css",
+    "README.md",
+    "CHANGELOG.md"
+  ],
   "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }

@@ -7,12 +7,18 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
+    /* Output for library */
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
-    "noEmit": true,
     "jsx": "react-jsx",
 
     /* Linting */

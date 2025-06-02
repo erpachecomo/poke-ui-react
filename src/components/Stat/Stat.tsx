@@ -1,4 +1,4 @@
-type StatProps = {
+export type StatProps = {
   label: string;
   value: number | string;
   maxValue?: number;
