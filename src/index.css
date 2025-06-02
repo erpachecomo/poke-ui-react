@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "./animations.css";
+
+@theme {
+  --color-primary: #646cff;
+  --color-secondary: #747bff;
+  --color-accent: #535bf2;
+  --color-background: #242424;
+}
