@@ -12,9 +12,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "ci": "tsc -b --noEmit && vite build",
+    "ci": "vite build && tsc -b --noEmit",
     "test": "echo \"No tests specified\" && exit 0",
-    "build": "tsc -b && vite build",
+    "build": "vite build && tsc -b ",
     "lint": "eslint .",
     "preview": "vite preview"
   },
