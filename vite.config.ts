@@ -6,6 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   build: {
+    outDir: "lib",
     lib: {
       entry: 'src/index.ts',
       name: "PokeUI",
