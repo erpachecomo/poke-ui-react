@@ -23,7 +23,7 @@ yarn add poke-ui-react
 Import the styles and components you need:
 
 ```tsx
-import 'poke-ui-react/dist/style.css';
+import 'poke-ui-react/lib/poke-ui-react.css';
 import { Stat } from 'poke-ui-react';
 
 function Example() {
