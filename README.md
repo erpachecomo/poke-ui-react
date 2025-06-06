@@ -8,6 +8,9 @@ A customizable React component library for building Pokédex-style applications 
 - 🎨 Easy to style and extend
 - 🧪 TypeScript support for type safety
 
+## Check it out our storybook!
+[Storybook/poke-ui-react](https://erpachecomo.github.io/poke-ui-react)
+
 ## Getting Started
 
 ### Installation
@@ -33,21 +36,6 @@ function Example() {
 }
 ```
 
-## Components
-
-### Stat
-Displays a stat bar with a label and value, ideal for Pokémon stats or similar data.
-
-**Props:**
-- `label` (string): The name of the stat (e.g., "HP", "Attack").
-- `value` (number): The stat value (e.g., 60).
-- `classNames?` (object): Optional. Custom class names for styling sub-elements (e.g., `{ barFill: "custom-animation" }`).
-
-**Example:**
-```tsx
-<Stat label="Attack" value={80} classNames={{ barFill: "my-animation" }} />
-```
-
 ## Customization
 - Built with Tailwind CSS for easy theming.
 - Override styles using the `classNames` prop or by extending Tailwind config.
@@ -55,7 +43,6 @@ Displays a stat bar with a label and value, ideal for Pokémon stats or similar 
 ## Roadmap
 - Add more components (e.g., TypeBadge, PokemonCard, ProgressBar)
 - Improved accessibility and documentation
-- Storybook integration
 
 ## Contributing
 Pull requests and suggestions are welcome! Please open an issue to discuss your ideas.
