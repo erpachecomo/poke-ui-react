@@ -34,7 +34,7 @@ jobs:
           path: storybook-static # default: dist/storybook
           checkout: false # default: true
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
             name: github-pages-${{ github.run_id }} # Append unique identifier
             path: storybook-static
