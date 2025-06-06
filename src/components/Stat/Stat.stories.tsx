@@ -59,3 +59,14 @@ export const Primary: Story = {
     label: "HP",
   },
 };
+
+export const WithAnimation: Story = {
+  args: {
+    value: 80,
+    label: "HP",
+    classNames: {
+      container: "w-100 bg-gray-800 rounded-lg p-4",
+      barFill: "scale-in-hor-left",
+    },
+  },
+};
