@@ -1,6 +1,8 @@
 export type StatProps = {
   label: string;
   value: number | string;
+  prefixValue?: string;
+  suffixValue?: string;
   maxValue?: number;
   minValue?: number;
   classNames?: {
